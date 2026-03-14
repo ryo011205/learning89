@@ -1,9 +1,8 @@
-<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>学習タイムアタック</title>
+<title>ラーニング89</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0;}
 body{font-family:'Helvetica Neue',Arial,'Hiragino Kaku Gothic ProN','Hiragino Sans',Meiryo,sans-serif;background:#f5f5f0;min-height:100vh;display:flex;justify-content:center;align-items:flex-start;padding:1rem;}
@@ -123,8 +122,8 @@ body{font-family:'Helvetica Neue',Arial,'Hiragino Kaku Gothic ProN','Hiragino Sa
 <!-- ===== START SCREEN ===== -->
 <div id="start-screen" class="screen active">
   <div class="title-area">
-    <h1>学習タイムアタック</h1>
-    <p>野球ルールで10問チャレンジ！</p>
+    <h1>タイムアタックゲーム</h1>
+    <p>早く解いて得点チャレンジ！</p>
   </div>
 
   <div class="section-label">カテゴリを選ぶ</div>
