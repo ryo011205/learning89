@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ラーニング89</title>
+<title>ラーニング8Q</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0;}
 body{font-family:'Helvetica Neue',Arial,'Hiragino Kaku Gothic ProN','Hiragino Sans',Meiryo,sans-serif;background:#f5f5f0;min-height:100vh;display:flex;justify-content:center;align-items:flex-start;padding:1rem;}
@@ -124,45 +124,45 @@ body{font-family:'Helvetica Neue',Arial,'Hiragino Kaku Gothic ProN','Hiragino Sa
 <div id="start-screen" class="screen active">
   <div class="title-area">
     <h1>タイムアタックゲーム</h1>
-    <p>早く解いて得点チャレンジ！</p>
+    <p>はやとき得点チャレンジ！</p>
   </div>
 
-  <div class="section-label">カテゴリを選ぶ</div>
+  <div class="section-label">カテゴリをえらんでください</div>
 
   <div class="cat-section">
     <div class="cat-section-header">
-      <span class="cat-section-tag tag-kanji">漢字</span>
+      <span class="cat-section-tag tag-kanji">かんじ</span>
       <div class="cat-section-line"></div>
     </div>
     <div class="cat-row cat-row-2">
       <div class="cat-btn" data-cat="kanji-read" data-group="kanji" onclick="selectCat(this)">
-        <div class="cat-name">読み方</div>
-        <div class="cat-desc">漢字 → 読みをひらがなで入力</div>
+        <div class="cat-name">よみ</div>
+        <div class="cat-desc">よみをひらがなでこたえる</div>
       </div>
       <div class="cat-btn" data-cat="kanji-write" data-group="kanji" onclick="selectCat(this)">
         <div class="cat-name">入力</div>
-        <div class="cat-desc">読み → 9マスから漢字を選択</div>
+        <div class="cat-desc">9マスからこたえをえらぶ</div>
       </div>
     </div>
   </div>
 
   <div class="cat-section">
     <div class="cat-section-header">
-      <span class="cat-section-tag tag-eng">英語</span>
+      <span class="cat-section-tag tag-eng">ENGLISH</span>
       <div class="cat-section-line"></div>
     </div>
     <div class="cat-row cat-row-3">
       <div class="cat-btn" data-cat="eng-read" data-group="eng" onclick="selectCat(this)">
-        <div class="cat-name">読み</div>
-        <div class="cat-desc">英語 → 日本語を入力</div>
+        <div class="cat-name">よみ</div>
+        <div class="cat-desc">日本語を入力</div>
       </div>
       <div class="cat-btn" data-cat="eng-mean" data-group="eng" onclick="selectCat(this)">
-        <div class="cat-name">意味</div>
-        <div class="cat-desc">日本語 → 9マスから文字を順に選択</div>
+        <div class="cat-name">いみ</div>
+        <div class="cat-desc">9マスから答えの文字を順に選択</div>
       </div>
       <div class="cat-btn" data-cat="eng-write" data-group="eng" onclick="selectCat(this)">
-        <div class="cat-name">入力</div>
-        <div class="cat-desc">日本語 → 9マスからABCを順に選択</div>
+        <div class="cat-name">英単語</div>
+        <div class="cat-desc">9マスからアルファベットを順に選択</div>
       </div>
     </div>
   </div>
@@ -175,11 +175,11 @@ body{font-family:'Helvetica Neue',Arial,'Hiragino Kaku Gothic ProN','Hiragino Sa
     <div class="cat-row cat-row-2">
       <div class="cat-btn" data-cat="abc-upper" data-group="abc" onclick="selectCat(this)">
         <div class="cat-name">大文字</div>
-        <div class="cat-desc">読み → 9マスの小文字から大文字を選択</div>
+        <div class="cat-desc">9マスの大文字から選択</div>
       </div>
       <div class="cat-btn" data-cat="abc-lower" data-group="abc" onclick="selectCat(this)">
         <div class="cat-name">小文字</div>
-        <div class="cat-desc">大文字 → 小文字を入力</div>
+        <div class="cat-desc">9マスの小文字から選択</div>
       </div>
     </div>
   </div>
@@ -197,7 +197,7 @@ body{font-family:'Helvetica Neue',Arial,'Hiragino Kaku Gothic ProN','Hiragino Sa
     </button>
   </div>
 
-  <div class="section-label">学年を選ぶ（漢字カテゴリに反映）</div>
+  <div class="section-label">学年（漢字カテゴリに反映）</div>
   <div class="grade-row">
     <button class="grade-btn active" onclick="setGrade(1,this)">小1</button>
     <button class="grade-btn" onclick="setGrade(2,this)">小2</button>
